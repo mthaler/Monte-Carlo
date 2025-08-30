@@ -6,10 +6,12 @@ import (
 )
 
 func calculatePi(n int) float64 {
-	x := rand.Float64()
-	y := rand.Float64()
-	x = x/math.MaxFloat64*2.0 + 1.0
-	y = y/math.MaxFloat64*2.0 + 1.0
+	for i := 0; i < n; i++ {
+		x := rand.Float64()
+		y := rand.Float64()
+		x = x/math.MaxFloat64*2.0 + 1.0
+		y = y/math.MaxFloat64*2.0 + 1.0
+	}
 
 	return 0.0
 }
