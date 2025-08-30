@@ -1,2 +1,2 @@
 # Monte-Carlo
-Monte Carlo Methods to calculate Pi
+Monte Carlo Method to estimate the value pi
